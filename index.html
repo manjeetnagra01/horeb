@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Horeb Restaurant - Authentic East African Cuisine in Calgary. Experience the vibrant flavors of East Africa with traditional recipes and warm hospitality.">
+    <meta name="keywords"
+        content="East African restaurant, Calgary restaurant, Ethiopian food, injera, tibs, authentic cuisine">
+    <title>Horeb Restaurant - Taste the Heart of East Africa</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Horeb Restaurant Logo">
+                <h2 class="logo-text">Horeb</h2>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#specialties" class="nav-link">Specialties</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-up">
+            <h1 class="hero-title">Horeb Restaurant</h1>
+            <p class="hero-subtitle">Taste the Heart of East Africa</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+                <a href="#contact" class="btn btn-secondary">Reserve a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-up">
+                    <img src="images/about.jpg" alt="Horeb Restaurant Interior">
+                </div>
+                <div class="about-content fade-up">
+                    <h2 class="section-title">Welcome to Horeb Restaurant</h2>
+                    <div class="title-underline"></div>
+                    <p class="about-text">
+                        Horeb Restaurant brings the vibrant flavors of East Africa to Calgary.
+                        We believe in fresh ingredients, traditional recipes, and warm hospitality.
+                    </p>
+                    <p class="about-text">
+                        Every dish reflects our heritage and the rich culture of East African cuisine.
+                        From the aromatic spices to the time-honored cooking methods, we invite you
+                        to experience an authentic culinary journey.
+                    </p>
+                    <p class="about-text">
+                        Our passion is to share the warmth and flavors of our homeland with every guest
+                        who walks through our doors. Join us for an unforgettable dining experience.
+                    </p>
+                    <a href="#menu" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialties Section -->
+    <section class="specialties" id="specialties">
+        <div class="container">
+            <h2 class="section-title center fade-up">Our Signature Dishes</h2>
+            <div class="title-underline center"></div>
+            <p class="section-description center fade-up">Discover the authentic flavors that make us special</p>
+
+            <div class="specialties-grid">
+                <div class="specialty-card fade-up">
+                    <div class="specialty-image">
+                        <img src="images/specialty-1.jpg" alt="Injera Variety Platter">
+                    </div>
+                    <div class="specialty-content">
+                        <h3>Injera Variety Platter</h3>
+                        <p>Traditional Ethiopian flatbread served with an assortment of flavorful stews and vegetables
+                        </p>
+                        <span class="price">$22</span>
+                    </div>
+                </div>
+
+                <div class="specialty-card fade-up">
+                    <div class="specialty-image">
+                        <img src="images/specialty-2.jpg" alt="Tibs">
+                    </div>
+                    <div class="specialty-content">
+                        <h3>Tibs (Beef/Chicken)</h3>
+                        <p>Sizzling sautéed meat with peppers, onions, and aromatic East African spices</p>
+                        <span class="price">$18</span>
+                    </div>
+                </div>
+
+                <div class="specialty-card fade-up">
+                    <div class="specialty-image">
+                        <img src="images/specialty-3.jpg" alt="Goat Curry">
+                    </div>
+                    <div class="specialty-content">
+                        <h3>Goat Curry</h3>
+                        <p>Tender goat meat slow-cooked in rich, aromatic curry sauce with traditional spices</p>
+                        <span class="price">$19</span>
+                    </div>
+                </div>
+
+                <div class="specialty-card fade-up">
+                    <div class="specialty-image">
+                        <img src="https://images.unsplash.com/photo-1580959375944-0b7b9e7f9b7f?w=600&h=400&fit=crop"
+                            alt="Grilled Tilapia" onerror="this.src='images/specialty-1.jpg'">
+                    </div>
+                    <div class="specialty-content">
+                        <h3>Grilled Tilapia</h3>
+                        <p>Fresh whole tilapia grilled to perfection with herbs and served with traditional sides</p>
+                        <span class="price">$24</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title center fade-up">Our Full Menu</h2>
+            <div class="title-underline center"></div>
+            <p class="section-description center fade-up">Explore our complete selection of East African delicacies</p>
+
+            <div class="menu-grid">
+                <!-- Breakfast -->
+                <div class="menu-category fade-up">
+                    <h3 class="menu-category-title">Breakfast</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Mandazi</h4>
+                                <span class="menu-price">$6</span>
+                            </div>
+                            <p class="menu-description">Sweet fried dough, perfect for breakfast</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Sambusa Plate</h4>
+                                <span class="menu-price">$9</span>
+                            </div>
+                            <p class="menu-description">Crispy pastries filled with spiced meat or vegetables</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Scrambled Eggs with Chapati</h4>
+                                <span class="menu-price">$12</span>
+                            </div>
+                            <p class="menu-description">Fluffy eggs served with soft flatbread</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Course -->
+                <div class="menu-category fade-up">
+                    <h3 class="menu-category-title">Main Course</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Tibs (Beef/Chicken)</h4>
+                                <span class="menu-price">$18</span>
+                            </div>
+                            <p class="menu-description">Sautéed meat with peppers and spices</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Goat Curry</h4>
+                                <span class="menu-price">$19</span>
+                            </div>
+                            <p class="menu-description">Tender goat in aromatic curry sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Ugali with Stew</h4>
+                                <span class="menu-price">$14</span>
+                            </div>
+                            <p class="menu-description">Cornmeal porridge with flavorful meat stew</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Dishes -->
+                <div class="menu-category fade-up">
+                    <h3 class="menu-category-title">Special Dishes</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Injera Variety Platter</h4>
+                                <span class="menu-price">$22</span>
+                            </div>
+                            <p class="menu-description">Traditional flatbread with assorted stews</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Mixed Grill</h4>
+                                <span class="menu-price">$25</span>
+                            </div>
+                            <p class="menu-description">Selection of grilled meats and vegetables</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Grilled Tilapia</h4>
+                                <span class="menu-price">$24</span>
+                            </div>
+                            <p class="menu-description">Fresh whole fish grilled with herbs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beverages -->
+                <div class="menu-category fade-up">
+                    <h3 class="menu-category-title">Beverages</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Mango Juice</h4>
+                                <span class="menu-price">$6</span>
+                            </div>
+                            <p class="menu-description">Fresh tropical mango juice</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Passion Fruit Juice</h4>
+                                <span class="menu-price">$6</span>
+                            </div>
+                            <p class="menu-description">Refreshing passion fruit blend</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Soda</h4>
+                                <span class="menu-price">$3</span>
+                            </div>
+                            <p class="menu-description">Selection of soft drinks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title center fade-up">Gallery</h2>
+            <div class="title-underline center"></div>
+            <p class="section-description center fade-up">A visual feast of our culinary creations</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item fade-up">
+                    <img src="images/specialty-1.jpg" alt="Gallery Image 1">
+                </div>
+                <div class="gallery-item fade-up">
+                    <img src="images/specialty-2.jpg" alt="Gallery Image 2">
+                </div>
+                <div class="gallery-item fade-up">
+                    <img src="images/specialty-3.jpg" alt="Gallery Image 3">
+                </div>
+                <div class="gallery-item fade-up">
+                    <img src="images/about.jpg" alt="Gallery Image 4">
+                </div>
+                <div class="gallery-item fade-up">
+                    <img src="images/hero.jpg" alt="Gallery Image 5">
+                </div>
+                <div class="gallery-item fade-up">
+                    <img src="images/specialty-1.jpg" alt="Gallery Image 6">
+                </div>
+                <div class="gallery-item fade-up">
+                    <img src="images/specialty-2.jpg" alt="Gallery Image 7">
+                </div>
+                <div class="gallery-item fade-up">
+                    <img src="images/specialty-3.jpg" alt="Gallery Image 8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title center fade-up">Get in Touch</h2>
+            <div class="title-underline center"></div>
+            <p class="section-description center fade-up">We'd love to hear from you</p>
+
+            <div class="contact-grid">
+                <div class="contact-info fade-up">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>495 36 St NE #184<br>Calgary, AB T2A 6K3<br>Canada</p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+15876642385">+1 587 664 2385</a></p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:test@horebrestaurant.com">test@horebrestaurant.com</a></p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Working Hours</h3>
+                        <p>Every Day<br>9:00 AM – 12:00 AM</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper fade-up">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-container fade-up">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.7891234567!2d-113.9876543!3d51.0876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDA1JzE1LjYiTiAxMTPCsDU5JzE1LjYiVw!5e0!3m2!1sen!2sca!4v1234567890123!5m2!1sen!2sca"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Horeb Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
